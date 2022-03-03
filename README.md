@@ -19,7 +19,7 @@ $ yarn add use-actual-callback
 - The returned function is always the same.
 - You don't need to pass dependencies array. Never.
 
-## Example
+## Usage
 
 ```tsx
 import { useActualCallback } from 'use-actual-callback'
