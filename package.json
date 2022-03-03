@@ -1,0 +1,45 @@
+{
+  "name": "use-actual-callback",
+  "description": "A good alternative to useCallback",
+  "version": "1.0.0",
+  "main": "./dist/index.js",
+  "exports": "./dist/index.mjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "license": "MIT",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "test": "jest",
+    "build": "rm -rf dist && rollup -c",
+    "lint": "eslint --ext .ts,.tsx src"
+  },
+  "devDependencies": {
+    "@eslint-kit/eslint-config-base": "^4.0.0",
+    "@eslint-kit/eslint-config-node": "^2.0.0",
+    "@eslint-kit/eslint-config-patch": "^1.0.0",
+    "@eslint-kit/eslint-config-prettier": "^3.0.0",
+    "@eslint-kit/eslint-config-typescript": "^5.0.1",
+    "@testing-library/react-hooks": "^7.0.2",
+    "@types/jest": "^26.0.14",
+    "@types/react": "^16.9.23",
+    "@typescript-eslint/parser": "4.15.0",
+    "esbuild": "^0.14.24",
+    "eslint": "7.10.0",
+    "jest": "^26.4.2",
+    "prettier": "2.3.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-test-renderer": "^17.0.2",
+    "rollup": "^2.69.0",
+    "rollup-plugin-dts": "^4.1.0",
+    "rollup-plugin-esbuild": "^4.8.2",
+    "rollup-plugin-terser": "^7.0.2",
+    "ts-jest": "^26.4.0",
+    "typescript": "4.1.5"
+  },
+  "peerDependencies": {
+    "react": "^16.8.0"
+  }
+}
