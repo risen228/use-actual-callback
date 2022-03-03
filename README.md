@@ -1,5 +1,7 @@
 # use-actual-callback
 
+> :warning: **This hook might cause problems in the concurrent mode**
+
 ## Installation
 
 ```sh
